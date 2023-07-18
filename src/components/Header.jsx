@@ -15,14 +15,10 @@ export const Header = () => {
     <header>
       <nav className="bg-black text-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <Link to="https://flowbite.com/" className="flex items-center">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8 mr-3"
-              alt="Flowbite Logo"
-            />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white px-2">
-              MOBIES
+          <Link to="/" className="flex items-center">
+            <img src="./Logoooo.png" className="h-8 mr-3" alt="Flowbite Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white px-2 text-green-500">
+              Resolute
             </span>
           </Link>
           <div className="flex md:order-2">
